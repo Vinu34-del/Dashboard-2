@@ -181,5 +181,89 @@ button{
 }
 .right2{
     flex: 1;
-    background-color: yellow;
+    padding: 20px 0;
+    padding-right: 8px;
+    /* background-color: yellow; */
+}
+.inner{
+    background-color: white;
+    height: 100%;
+    border-radius: 7px;
+    padding: 8px;
+}
+.summary1{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+   margin-top: 10px;
+}
+.summary1 img{
+    width: 50px;
+    object-fit: cover;
+    
+}
+.summaryimg{
+    width: 60px;
+    height: 50px;
+    background-color: rgb(231, 225, 225); 
+    padding: 5px 0;
+    padding-left: 4px;
+    display: flex;
+    border-radius: 7px;
+}
+.price span{
+   color: rgb(210, 142, 15);
+}
+.paymentSummary{
+    padding: 10px;
+}
+.paymentSummary1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    padding-left: 1px;
+}
+.paymentSummary2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    padding-left: 1px;
+    padding-top: 8px;
+}
+
+.payment{
+    width: 210px;
+    height: auto;
+    background-color: rgb(231, 225, 225); 
+    margin-top: 10px;
+    border: 3px dashed rgb(181, 178, 178);
+}
+.pays{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+}
+.pay-img{
+    background-color: white;
+    width: 86px;
+    text-align: center;
+}
+.pay-img img{
+    width: 40px;
+}
+.paymentMethod{
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.payment button{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: rgb(255, 170, 0);
+    padding: 6px 0;
+    margin-top: 8px
 }
